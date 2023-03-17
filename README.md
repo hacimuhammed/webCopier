@@ -1,2 +1,6 @@
-# webCopier
-Website css and html copier
+To use it, simply type the following into the console:
+(function () {
+    var url = "https://gozel.me/webCopier.js";
+    var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url;
+    var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+})();
